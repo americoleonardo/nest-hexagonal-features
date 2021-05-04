@@ -67,6 +67,12 @@ yarn test:cov
 http://localhost:{you-port}/v1/api-docs
 ```
 
+### Generate compodoc
+
+```shell
+compodoc -p tsconfig.doc.json -s
+```
+
 ## License
 
  [MIT licensed](LICENSE).
