@@ -1,0 +1,24 @@
+version: '3'
+services:
+  mongo:
+    image: mongo:3
+    ports:
+      - "27017:27017"
+  redis:
+    image: redis
+    command: redis-server --requirepass redis123
+    ports:
+      - "6379:6379"
+  rabbitmq:
+    image: "rabbitmq:3-management"
+    build:
+      context: ../
+      dockerfile: ./docker/Dockerfile.rabbitmq
+    hostname: "rabbit"
+    ports:
+      - "15672:15672"
+      - "5672:5672"
+    labels:
+      NAME: "rabbitmq"
+    volumes:
+      - ./rabbitmq-user-guest.conf
