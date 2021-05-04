@@ -1,6 +1,7 @@
 /dist
 /node_modules
 /rabbitmq_data
+documentation/
 
 # Logs
 logs
