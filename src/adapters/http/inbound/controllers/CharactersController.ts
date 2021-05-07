@@ -58,7 +58,7 @@ export class CharactersController {
 
   @ApiBody({ type: CharacterDto })
   @ApiNoContentResponse({ description: 'Message queued' })
-  @Post("/random")
+  @Post("/generate-random")
   @HttpCode(HttpStatus.NO_CONTENT)
   public async createRandomCharacter(): Promise<any> {
     try {
