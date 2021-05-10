@@ -19,7 +19,7 @@ This microservice is an experimental repository who you will know how basically:
 * Build a beautiful swagger documentation
 
 <center>
-<a href="https://raw.githubusercontent.com/americoleonardo/nest-hexagonal-features/main/docs/diagram.png" target="blank"><img src="https://github.com/americoleonardo/nestjs-hexagonal-concept/blob/main/docs/diagram.png?raw=true" alt="Basic microservice architecture" /></a>
+<a href="https://raw.githubusercontent.com/americoleonardo/nest-hexagonal-features/main/docs/diagram.png" target="blank"><img src="https://raw.githubusercontent.com/americoleonardo/nest-hexagonal-features/main/docs/diagram.png" alt="Basic microservice architecture" /></a>
 </center>
 
 ## Build With
